@@ -2,13 +2,13 @@
 
 
 
-\## 📌 Project Overview
+\##  Project Overview
 
 This is a modular \*\*ETL (Extract, Transform, Load)\*\* pipeline built with Python. It automates the process of fetching university data from a public REST API, processing it into a structured format using Pandas, and exporting the final dataset for analysis.
 
 
 
-\## 🚀 Features
+\##  Features
 
 \* \*\*Extraction\*\*: Real-time data retrieval from the \*Universities List API\*.
 
@@ -26,7 +26,7 @@ This is a modular \*\*ETL (Extract, Transform, Load)\*\* pipeline built with Pyt
 
 
 
-\## 🛠️ Tech Stack
+\##  Tech Stack
 
 \* \*\*Language\*\*: Python 3.x
 
@@ -40,7 +40,7 @@ This is a modular \*\*ETL (Extract, Transform, Load)\*\* pipeline built with Pyt
 
 
 
-\## 📖 How to Run
+\##  How to Run
 
 1\. Clone the repository:
 
