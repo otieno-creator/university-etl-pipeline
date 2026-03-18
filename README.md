@@ -1,50 +1,37 @@
-\# University Data ETL Pipeline
+#  University Data ETL Pipeline
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)](https://www.python.org)
+[![Pandas](https://img.shields.io/badge/Library-Pandas-orange?style=flat)](https://pandas.pydata.org)
 
+##  Project Overview
+This project is a modular **ETL (Extract, Transform, Load)** pipeline designed to automate the lifecycle of academic data. It fetches real-time university information from a public REST API, cleanses it using the Pandas library, and structures it for high-level analytical reporting.
 
-\##  Project Overview
+---
 
-This is a modular \*\*ETL (Extract, Transform, Load)\*\* pipeline built with Python. It automates the process of fetching university data from a public REST API, processing it into a structured format using Pandas, and exporting the final dataset for analysis.
+##  Key Features
 
+###  Extraction
+* **Real-time Retrieval:** Automated data fetching from the *Universities List API*.
+* **Seamless Integration:** Designed to handle live JSON responses efficiently.
 
+###  Transformation
+* **Precision Filtering:** Selects high-value columns (Name, Country, State, Website) for cleaner datasets.
+* **Data Integrity:** Implements **Null Value Imputation** for missing State/Province entries to ensure consistency.
+* **Standardization:** Automated URL formatting for uniform link access across the dataset.
+* **Audit Ready:** Injects processing timestamps for full data lineage and auditing.
 
-\##  Features
+###  Loading
+* **Structured Export:** Generates finalized datasets optimized for downstream analysis and visualization.
 
-\* \*\*Extraction\*\*: Real-time data retrieval from the \*Universities List API\*.
+---
 
-\* \*\*Transformation\*\*: 
+##  Tech Stack
+* **Language:** Python 3.x
+* **Data Processing:** Pandas
+* **API Interaction:** Requests
+* **Version Control:** Git & GitHub
 
-&#x20;   \* Filtered relevant columns (Name, Country, State, Website).
-
-&#x20;   \* Handled missing data (Null value imputation for State/Province).
-
-&#x20;   \* Standardized URL formatting for easy access.
-
-&#x20;   \* Injected processing timestamps for data auditing.
-
-\* \*\*Loading\*\*: Generates a clean, ready-to-use `.csv` file.
-
-
-
-\##  Tech Stack
-
-\* \*\*Language\*\*: Python 3.x
-
-\* \*\*Libraries\*\*: 
-
-&#x20;   \* `Pandas`: Data manipulation and structuring.
-
-&#x20;   \* `Requests`: Handling API calls.
-
-&#x20;   \* `Datetime`: Metadata generation.
-
-
-
-\##  How to Run
-
-1\. Clone the repository:
-
-&#x20;  ```bash
-
-&#x20;  git clone \[https://github.com/otieno-creator/university-etl-pipeline.git](https://github.com/otieno-creator/university-etl-pipeline.git)
-
+##  How to Use
+1. Clone the repository.
+2. Install dependencies: `pip install pandas requests`
+3. Run the main script: `python main.py`
