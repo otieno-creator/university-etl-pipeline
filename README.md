@@ -33,5 +33,5 @@ This project is a modular **ETL (Extract, Transform, Load)** pipeline designed t
 
 ##  How to Use
 1. Clone the repository.
-2. Install dependencies: `pip install pandas requests`
-3. Run the main script: `python main.py`
+2. Install dependencies: `pip install pandas requests.`
+3. Run the main script: `python main.py.` 
